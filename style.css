@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); /* counter box body text 0 */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap'); /* counter box heading 'Counter' */
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap'); /* for button text*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/background.jpg');
+    background-size: cover;
+}
+
+.main-container 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*CSS for counter box starts */ 
+.counter-box {
+    border: 2px solid rgb(34, 34, 34);
+    width: 500px;
+    height: 190px;
+    border-radius: 17px;
+    box-shadow: 4px 4px 18px 3px rgb(61, 61, 61);
+    
+}
+
+.counter-box-heading {
+    text-align: center;
+    margin: 4px 0px;
+}
+
+.counter-box-heading h2 {
+    font-size: 2.2rem;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.counter-box-body {
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.counter-box-body p{
+    font-size: 3.8rem;
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+.counter-box-buttons{
+    border: 0px solid;
+    display: flex; 
+    justify-content: center;
+    column-gap: 3rem;  
+}
+
+.counter-box-buttons button {
+    padding: 7px 18px;
+    font-size: 1.4rem;
+    background: rgb(255, 127, 42);
+    border-radius: 13px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Piedra', cursive;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.counter-box-buttons button:hover {
+    background: rgb(255, 72, 0);
+    transition: 0.5s;
+    
+}
+
+/* CSS for counter ends */
+
+
